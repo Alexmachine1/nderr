@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html,body {
+    font-family: 'Poppins';
+    overflow-x: hidden;
+    width: 100%;
+    position: relative;
+    /* padding: 0 40px; */
+}
+
+.homesection {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 30px;
+}
+
+.homesectioncenter ul {
+    display: flex;
+    gap: 40px;
+}
+
+.homesectioncenter li {
+    list-style: none;
+    font-size: 23px;
+
+
+}
+
+.homesectionright {
+    background-color: black;
+    color: white;
+    padding: 10px 30px;
+}
+
+.homesectionright a {
+    text-decoration: none;
+    color: white;
+    font-size: 23px;
+}
+
+.secondsectioncenter {
+
+    text-align: center;
+    padding: 80px 50px;
+    font-size: 23px;
+    width: 100%;
+
+}
+
+.secondsectioncenter h1 {
+    font-size: 50px;
+}
+
+.secondsectioncenter p {
+    /* padding: 0 60px; */
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+
+}
+
+.icons a {
+    text-decoration: none;
+    font-size: 50px;
+    color: black;
+}
+
+hr {
+    width: 90%;
+    margin: auto 80px;
+}
+
+footer p {
+    color: #D5BFB2;
+    padding: 30px;
+    padding-left: 80px;
+
+}
+
+/* Media query */
+@media screen and (max-width:1024px) {
+    .homesection {
+        flex-direction: column;
+        /* margin-right: 100px; */
+        /* width: 100%; */
+    }
+
+    .homesectionright {
+        display: none;
+    }
+}
+
+
+    @media screen and (max-width:690px) {
+        .homesection {
+            flex-direction: column;
+            /* margin-right: 100px; */
+            width: 100%;
+            margin: 0  auto;
+
+        }
+
+        .homesectioncenter li {
+           
+            font-size: 16px;
+        }
+        .homesectioncenter ul {
+            column-gap: 30px;
+        }
+
+
+        .secondsectioncenter h1 {
+            font-size: 16px;
+        }
+
+        .secondsectioncenter p {
+            margin: 0 auto;
+            font-size: 16px;
+            /* width: 200%; */
+
+        }
+
+        .secondsectioncenter {
+            width: 700px;
+           
+
+
+
+        }
+
+        .homesectionright {
+            display: none;
+        }
+
+        .secondsection {
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            /* width: 100%; */
+            margin: 0  auto;
+            background-color: aquamarine;
+
+        }
+
+
+    }
